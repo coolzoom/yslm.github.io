@@ -6,6 +6,8 @@ node_modules/
 public/
 .deploy*/
 
+.idea/
+
 .deploy_git
 public/  
 _config.yml
