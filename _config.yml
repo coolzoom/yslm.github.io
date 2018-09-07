@@ -84,3 +84,11 @@ deploy:
 
 
 ## //theme: jekyll-theme-cayman
+
+# RSS订阅插件
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+
+plugins: hexo-generate-feed
