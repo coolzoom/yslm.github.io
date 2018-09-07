@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="git@github.com:yslm/yslm.github.io.git/"/>
+  <updated>2018-09-07T15:59:05.242Z</updated>
+  <id>git@github.com:yslm/yslm.github.io.git/</id>
+  
+  <author>
+    <name>yang sl</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9-7号</title>
+    <link href="git@github.com:yslm/yslm.github.io.git/2018/09/07/%E6%9D%A5%E4%B8%AA%E6%96%B0%E7%9A%84/"/>
+    <id>git@github.com:yslm/yslm.github.io.git/2018/09/07/来个新的/</id>
+    <published>2018-09-07T15:44:41.000Z</published>
+    <updated>2018-09-07T15:59:05.242Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。"><a href="#一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。" class="headerlink" title="一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。"></a>一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。</h4><ul><li>明天去深圳，带游慧过去，现在那边的兄弟都做得挺好的，觉得差距真是越来越大了，内心还是比较惶恐的，有一点不自信。</li><li>写博客还是写在这个hexo里面比较有意思，自己折腾的确实更有劲头，不过mark语法还需要熟悉，图片也麻烦，还要上传图床。</li><li>今天写页面写了一整天，其实应该说是两整天，才写了一个页面，效率确实比较低，让小燕研究了一下 左右切换的问题，感觉她比我研究的深入多了，后生可畏呀。</li><li>目前项目中一些复杂的组件都是她写的了，我还需要借鉴，很惭愧呀。</li><li>今天有什么收获吗，感觉没有，不过发现在浏览器中使用奇数宽度有一点点的奇怪情况，比如，今天给一个大盒子加了0.03rem的边框，结果，发现里面的元素就有一点盖到边框上面了，换成0.04rem的边框宽度就好了。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有
+      
+    
+    </summary>
+    
+    
+      <category term="每日日记" scheme="git@github.com:yslm/yslm.github.io.git/tags/%E6%AF%8F%E6%97%A5%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将hexo源码整到github 的hexo分支记录</title>
+    <link href="git@github.com:yslm/yslm.github.io.git/2018/09/06/%E5%9C%A8%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/"/>
+    <id>git@github.com:yslm/yslm.github.io.git/2018/09/06/在测试一下/</id>
+    <published>2018-09-06T15:25:55.000Z</published>
+    <updated>2018-09-07T16:03:13.097Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="记录一下今天折腾hexo的过程吧"><a href="#记录一下今天折腾hexo的过程吧" class="headerlink" title="记录一下今天折腾hexo的过程吧"></a>记录一下今天折腾hexo的过程吧</h3><ul><li><p>看了别人的文章，突然想到如果我要在公司更新博客呢，目前的情况是git上的内容只有打包之后的文章部分，买有hexo博客源码，所以网上的做法都是将源码提交到博客仓库的分支上，分支取名就叫hexo，看了网上的很多教程，说要删除之前的.git文件夹，结果我删了又问题，其实解决办法很简单，因为源码部分不是一个git仓库，直接在源码文件夹git init 然后将网上的git仓库地址跟这个绑定就好了，然后本地新建hexo分支，git branch -b hexo；<br>然后 切换到hexo 分支去 git branch hexo  切过去之后就常规动作了</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> git branch 查看当前所在分支</span><br><span class="line"> git branch hexo 切换到hexo 分支</span><br><span class="line"> 然后 git add .</span><br><span class="line"> git commit -m &apos;提交源码到hexo分支&apos;</span><br><span class="line"> git push origin hexo</span><br><span class="line"></span><br><span class="line">这样就搞定了，也就是说要上传的那个git仓库是不能删的，现在这里面就有两个仓库了</span><br><span class="line">文章的仓库 通过如下操作就可以</span><br><span class="line"></span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br><span class="line">这样，它就会把文章提交到master的分支上去，因为有写过配置文件嘛，里面写的就是更新到master</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;记录一下今天折腾hexo的过程吧&quot;&gt;&lt;a href=&quot;#记录一下今天折腾hexo的过程吧&quot; class=&quot;headerlink&quot; title=&quot;记录一下今天折腾hexo的过程吧&quot;&gt;&lt;/a&gt;记录一下今天折腾hexo的过程吧&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;看了别人的
+      
+    
+    </summary>
+    
+    
+      <category term="折腾记录" scheme="git@github.com:yslm/yslm.github.io.git/tags/%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试新的文章</title>
+    <link href="git@github.com:yslm/yslm.github.io.git/2018/09/06/%E6%B5%8B%E8%AF%95%E6%96%B0%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+    <id>git@github.com:yslm/yslm.github.io.git/2018/09/06/测试新的文章/</id>
+    <published>2018-09-06T15:06:17.000Z</published>
+    <updated>2018-09-06T15:18:48.811Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="看能不能更新上去哈"><a href="#看能不能更新上去哈" class="headerlink" title="看能不能更新上去哈"></a>看能不能更新上去哈</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;看能不能更新上去哈&quot;&gt;&lt;a href=&quot;#看能不能更新上去哈&quot; class=&quot;headerlink&quot; title=&quot;看能不能更新上去哈&quot;&gt;&lt;/a&gt;看能不能更新上去哈&lt;/h3&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2018-9-6 手记</title>
+    <link href="git@github.com:yslm/yslm.github.io.git/2018/09/06/2018-9-6/"/>
+    <id>git@github.com:yslm/yslm.github.io.git/2018/09/06/2018-9-6/</id>
+    <published>2018-09-06T13:40:22.000Z</published>
+    <updated>2018-09-06T14:06:56.336Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>写博客吧，总觉得没啥可写的，肚子里面没有什么干货，抓耳牢骚都想不出写啥，没一个方向，</li><li>说两件事情吧，一个是晚上阵姐找我聊天，问了一些情况，感觉他们希望我能牛逼的顶上去，但是又觉得有一点悬，就是还不够信任，这种感觉让人很惶恐，我也希望自己能够能力很牛逼，得到大家的认可，然后升职加薪，走上人生巅峰，觉得自己太怂了，前段时间看了高中的日记，发现和现在的想法一样，想要的很多，自己行动的很少。二个是昨天和黑皮聊天，他那边情况不错，年薪比较高，让人很羡慕，当然，这种东西羡慕不来的，就看大大，在上海打拼几年，现在也做得不错了，对吧，看来我对自己还是不够狠。</li><li>昨天看了撒网要见鱼那个哥们的博客，阿里的，14年毕业，还是很年轻的，但是人家资质确实很好，计算机科班出身，并且自己也比较能够研究，还是非常不错的，并且知识非常丰富，ios,android，前端都会，还能自己开源一些东西，做一个框架，还是非常难得的。</li><li>我现在就是觉得没啥方向，比较有危机感，但是不知道从哪里入手，最近什么php，node都搞了一遍，但是都不甚清楚，只是凑了个热闹。</li><li>接下来大方向还是在前端这一块，夯实基础知识，起码红宝书还没仔细看完吧，张鑫旭的css世界也没看下去，东西太密集，很难坚持，想起卢博士说的，跟这些名校的学生的差距之一就是这个专注度的问题，不过我觉得还是跟思维深度也有关系，想想高中时候的那些知识点，数学，物理什么的，觉得自己学的风风火火，但是都是死的，没有开窍，导致连续两年都一样的分数，没啥长进，对自己要求太低了。</li><li>晚上看了朋友圈一篇文章，写的挺有意思的，作者年级和我差不多，在国外读博士，还是比较牛逼的，自认为是个屌丝，跟妹子们谈恋爱都没啥成功经验，文笔幽默，下面留言区大片的表白的，看吧，打铁还需自身硬啊，是吧，我也想写出幽默的文章啊，看那些牛逼的博主人家写作业很有意思啊，生活也很丰富啊，没有像我这样子，傻乎乎的坐在这儿，更别人说话都不知道说什么。都说写作是可以锻炼的，之前呢也专门练习了一下子，但是都没有坚持下去，最终都不了了之，但是我还是想尝试一下子，看看我到底行不行，反正觉得自己办事能力挺差的，没有方向，没有主张，怕丢面子，总之就是自己最讨厌的那种怂货，有时候在走路的时候看到前面走的一个人就在想，我貌似长得就像这样，个子也是这么矮，这么瘦，这样子看上去也没啥吸引力呀，哈哈，之前自己行里面的那点自我良好的感觉荡然无存，自己都看不下去，更何况别人呐。</li><li>不知不觉10点了，说说今天的糗事吧，应该是睡着了在做梦，梦到鬼压床，然后自己下意思的想起床，但是就是起不来，心里那个急呀，结果，感觉什么东西从下面跑过，貌似一只猫，然后就突然从床上弹起来，吓出一身冷汗，看了下时间，7：24，卧槽，又迟到了，立马刷牙洗脸上厕所，然后匆匆上车感到公司，wtf,才八点，比正常上班时间早了整整两个小时，心里真是一万头草拟吗奔过，一坐下来，好困啊，但是这么早到公司，总不是去睡觉的吧，熬到10点，不知道干了些啥就中午午饭了，然后突然就下班了，当然下午公司准备了下午茶，宣布了关于融资的好消息，确实挺不错的。</li><li>今天差不多就是这些，页面写了一点点，还有最复杂的榜单没搞呢，明天继续吧。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;写博客吧，总觉得没啥可写的，肚子里面没有什么干货，抓耳牢骚都想不出写啥，没一个方向，&lt;/li&gt;
+&lt;li&gt;说两件事情吧，一个是晚上阵姐找我聊天，问了一些情况，感觉他们希望我能牛逼的顶上去，但是又觉得有一点悬，就是还不够信任，这种感觉让人很惶恐，我也希望自己能够能力
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="git@github.com:yslm/yslm.github.io.git/2018/09/05/hello-world/"/>
+    <id>git@github.com:yslm/yslm.github.io.git/2018/09/05/hello-world/</id>
+    <published>2018-09-05T15:19:43.967Z</published>
+    <updated>2018-09-05T15:19:43.967Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
