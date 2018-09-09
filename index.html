@@ -273,6 +273,156 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="git@github.com:yslm/yslm.github.io.git/2018/09/09/红宝书/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="yang sl">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/09/红宝书/" itemprop="url">红宝书</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-09T20:30:11+08:00">
+                2018-09-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="红宝书中关于array-方法的复习"><a href="#红宝书中关于array-方法的复习" class="headerlink" title="红宝书中关于array 方法的复习"></a>红宝书中关于array 方法的复习</h3><ol>
+<li>slice方法，这个方法能够基于当前数组中的一个或者多项创建一个新的数组，它不会影响原数组，只会返回一个新的数组<br>slice(a,b)//会包含a下标的值但是不会包含b下标的值<ol start="2">
+<li>splice方法，按红宝书的说法，这个方法恐怕要算是最强大的数组方法了。splice的主要用途是向数组的中部插入项。使用方式有如下三种，删除，插入，替换。</li>
+</ol>
+<ul>
+<li>删除，splice(0,5),需要传入两个参数，第一个是起始位置，第二个是要删除的位数，如果第二个参数不传，那么就会一直选择到数组的最后一位，需要注意的是，splice方法会返回一个新的包含删除元素的数组，原来的数组会被改变。</li>
+</ul>
+</li>
+</ol>
+<pre><code>* 插入，语法如下，arr.splice(2,0,&apos;red&apos;,&apos;bluue&apos;...) =&gt;第一个是插入的起始位置，第二个是要删除的个数，然后后面都是需要插入的参数了，可以有很多个
+* 替换，替换其实就是依赖插入方法
+*** 重点来了，splice方法的返回值，红宝书上说，splice方法始终会返回一个数组，这个数组中包含从原始数组中删除的项，如果没有删除任何项，则返回一个空数组
+
+3. 位置方法 indexOf()和laseIndexOf()
+   说实话，这两个方法有用过，但是确实不太熟悉，这个方法可以传入两个参数，需要查找的项，和（可选的）表示查找起点位置的索引
+    console.log(arr.indexOf(1, 2)); //-1
+    console.log(arr.indexOf(1, 0)); //0
+
+    console.log(arr.lastIndexOf(2));//1
+    console.log(arr.lastIndexOf(2,1)); //1
+    console.log(arr.lastIndexOf(0)); //-1
+4. 迭代方法，有五个之多，还是很恐怖的
+      * 迭代方法，有五个,从下面的分组就可以看出，分在一组的功能比较相似，但是也还是有所不同
+     * some  对数组中的每一项都运行给定的函数，如果有一项返回true，那么整体返回true
+     * every every方法比较严格，只有全部项返回都是true，最终结果才会是true，这就像&amp;&amp; 和|| 或/与的区别一样
+     *
+     * map    对数组中的每一项都执行给定的函数，然后返回结果组成的数组
+     * filter 这个返回的不是结果，而是执行函数结果为true的原数组选项，就相当于把数组给过滤了
+     *
+     * forEach 这个方法就比较熟悉了，就是迭代，这个方法没有返回值哦
+5. 归并方法，reduce()和reduceRight(),这两个方法作用一样，就是遍历的方向不一样，这个方法我一次都没有用过，书中的例子是求数组的和，其他高级应用我现在也搞不明白
+</code></pre><h3 id="说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧"><a href="#说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧" class="headerlink" title="说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧"></a>说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧</h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="git@github.com:yslm/yslm.github.io.git/2018/09/07/来个新的/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -594,177 +744,6 @@
         
           
             <h3 id="看能不能更新上去哈"><a href="#看能不能更新上去哈" class="headerlink" title="看能不能更新上去哈"></a>看能不能更新上去哈</h3>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="git@github.com:yslm/yslm.github.io.git/2018/09/06/红宝书/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="yang sl">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/06/红宝书/" itemprop="url">2018-9-6 手记</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-06T21:40:22+08:00">
-                2018-09-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <ul>
-<li>写博客吧，总觉得没啥可写的，肚子里面没有什么干货，抓耳牢骚都想不出写啥，没一个方向，</li>
-<li>说两件事情吧，一个是晚上阵姐找我聊天，问了一些情况，感觉他们希望我能牛逼的顶上去，但是又觉得有一点悬，就是还不够信任，这种感觉让人很惶恐，我也希望自己能够能力很牛逼，得到大家的认可，然后升职加薪，走上人生巅峰，觉得自己太怂了，前段时间看了高中的日记，发现和现在的想法一样，想要的很多，自己行动的很少。二个是昨天和黑皮聊天，他那边情况不错，年薪比较高，让人很羡慕，当然，这种东西羡慕不来的，就看大大，在上海打拼几年，现在也做得不错了，对吧，看来我对自己还是不够狠。</li>
-<li>昨天看了撒网要见鱼那个哥们的博客，阿里的，14年毕业，还是很年轻的，但是人家资质确实很好，计算机科班出身，并且自己也比较能够研究，还是非常不错的，并且知识非常丰富，ios,android，前端都会，还能自己开源一些东西，做一个框架，还是非常难得的。</li>
-<li>我现在就是觉得没啥方向，比较有危机感，但是不知道从哪里入手，最近什么php，node都搞了一遍，但是都不甚清楚，只是凑了个热闹。</li>
-<li>接下来大方向还是在前端这一块，夯实基础知识，起码红宝书还没仔细看完吧，张鑫旭的css世界也没看下去，东西太密集，很难坚持，想起卢博士说的，跟这些名校的学生的差距之一就是这个专注度的问题，不过我觉得还是跟思维深度也有关系，想想高中时候的那些知识点，数学，物理什么的，觉得自己学的风风火火，但是都是死的，没有开窍，导致连续两年都一样的分数，没啥长进，对自己要求太低了。</li>
-<li>晚上看了朋友圈一篇文章，写的挺有意思的，作者年级和我差不多，在国外读博士，还是比较牛逼的，自认为是个屌丝，跟妹子们谈恋爱都没啥成功经验，文笔幽默，下面留言区大片的表白的，看吧，打铁还需自身硬啊，是吧，我也想写出幽默的文章啊，看那些牛逼的博主人家写作业很有意思啊，生活也很丰富啊，没有像我这样子，傻乎乎的坐在这儿，更别人说话都不知道说什么。都说写作是可以锻炼的，之前呢也专门练习了一下子，但是都没有坚持下去，最终都不了了之，但是我还是想尝试一下子，看看我到底行不行，反正觉得自己办事能力挺差的，没有方向，没有主张，怕丢面子，总之就是自己最讨厌的那种怂货，有时候在走路的时候看到前面走的一个人就在想，我貌似长得就像这样，个子也是这么矮，这么瘦，这样子看上去也没啥吸引力呀，哈哈，之前自己行里面的那点自我良好的感觉荡然无存，自己都看不下去，更何况别人呐。</li>
-<li>不知不觉10点了，说说今天的糗事吧，应该是睡着了在做梦，梦到鬼压床，然后自己下意思的想起床，但是就是起不来，心里那个急呀，结果，感觉什么东西从下面跑过，貌似一只猫，然后就突然从床上弹起来，吓出一身冷汗，看了下时间，7：24，卧槽，又迟到了，立马刷牙洗脸上厕所，然后匆匆上车感到公司，wtf,才八点，比正常上班时间早了整整两个小时，心里真是一万头草拟吗奔过，一坐下来，好困啊，但是这么早到公司，总不是去睡觉的吧，熬到10点，不知道干了些啥就中午午饭了，然后突然就下班了，当然下午公司准备了下午茶，宣布了关于融资的好消息，确实挺不错的。</li>
-<li>今天差不多就是这些，页面写了一点点，还有最复杂的榜单没搞呢，明天继续吧。<br>*</li>
-</ul>
-<hr>
-<p>title: 9-7号<br>date: 2018-09-07 23:44:41</p>
-<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><h4 id="一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。"><a href="#一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。" class="headerlink" title="一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。"></a>一晃有到了12点啦，时间就这么过去了，又假模假式的看了下红宝书，但是觉得还是看不进去，需要带着问题看可能会更好，那么多概念很容易忘记，就像刚才看的数组的sort方法，就还是有一点模糊，感觉不能很清晰的说出里面的原理，这样，每次使用的时候都是试一下，感觉心里就不太有底。</h4><ul>
-<li>明天去深圳，带游慧过去，现在那边的兄弟都做得挺好的，觉得差距真是越来越大了，内心还是比较惶恐的，有一点不自信。</li>
-<li>写博客还是写在这个hexo里面比较有意思，自己折腾的确实更有劲头，不过mark语法还需要熟悉，图片也麻烦，还要上传图床。</li>
-<li>今天写页面写了一整天，其实应该说是两整天，才写了一个页面，效率确实比较低，让小燕研究了一下 左右切换的问题，感觉她比我研究的深入多了，后生可畏呀。</li>
-<li>目前项目中一些复杂的组件都是她写的了，我还需要借鉴，很惭愧呀。</li>
-<li>今天有什么收获吗，感觉没有，不过发现在浏览器中使用奇数宽度有一点点的奇怪情况，比如，今天给一个大盒子加了0.03rem的边框，结果，发现里面的元素就有一点盖到边框上面了，换成0.04rem的边框宽度就好了。<br>*</li>
-</ul>
-<hr>
-<p>title: 红宝书<br>date: 2018-09-09 20:30:11</p>
-<h2 id="tags-1"><a href="#tags-1" class="headerlink" title="tags:"></a>tags:</h2><h3 id="红宝书中关于array-方法的复习"><a href="#红宝书中关于array-方法的复习" class="headerlink" title="红宝书中关于array 方法的复习"></a>红宝书中关于array 方法的复习</h3><ol>
-<li>slice方法，这个方法能够基于当前数组中的一个或者多项创建一个新的数组，它不会影响原数组，只会返回一个新的数组<br>slice(a,b)//会包含a下标的值但是不会包含b下标的值<ol start="2">
-<li>splice方法，按红宝书的说法，这个方法恐怕要算是最强大的数组方法了。splice的主要用途是向数组的中部插入项。使用方式有如下三种，删除，插入，替换。</li>
-</ol>
-<ul>
-<li>删除，splice(0,5),需要传入两个参数，第一个是起始位置，第二个是要删除的位数，如果第二个参数不传，那么就会一直选择到数组的最后一位，需要注意的是，splice方法会返回一个新的包含删除元素的数组，原来的数组会被改变。</li>
-</ul>
-</li>
-</ol>
-<pre><code>* 插入，语法如下，arr.splice(2,0,&apos;red&apos;,&apos;bluue&apos;...) =&gt;第一个是插入的起始位置，第二个是要删除的个数，然后后面都是需要插入的参数了，可以有很多个
-* 替换，替换其实就是依赖插入方法
-*** 重点来了，splice方法的返回值，红宝书上说，splice方法始终会返回一个数组，这个数组中包含从原始数组中删除的项，如果没有删除任何项，则返回一个空数组
-
-3. 位置方法 indexOf()和laseIndexOf()
-   说实话，这两个方法有用过，但是确实不太熟悉，这个方法可以传入两个参数，需要查找的项，和（可选的）表示查找起点位置的索引
-    console.log(arr.indexOf(1, 2)); //-1
-    console.log(arr.indexOf(1, 0)); //0
-
-    console.log(arr.lastIndexOf(2));//1
-    console.log(arr.lastIndexOf(2,1)); //1
-    console.log(arr.lastIndexOf(0)); //-1
-4. 迭代方法，有五个之多，还是很恐怖的
-      * 迭代方法，有五个,从下面的分组就可以看出，分在一组的功能比较相似，但是也还是有所不同
-     * some  对数组中的每一项都运行给定的函数，如果有一项返回true，那么整体返回true
-     * every every方法比较严格，只有全部项返回都是true，最终结果才会是true，这就像&amp;&amp; 和|| 或/与的区别一样
-     *
-     * map    对数组中的每一项都执行给定的函数，然后返回结果组成的数组
-     * filter 这个返回的不是结果，而是执行函数结果为true的原数组选项，就相当于把数组给过滤了
-     *
-     * forEach 这个方法就比较熟悉了，就是迭代，这个方法没有返回值哦
-5. 归并方法，reduce()和reduceRight(),这两个方法作用一样，就是遍历的方向不一样，这个方法我一次都没有用过，书中的例子是求数组的和，其他高级应用我现在也搞不明白
-</code></pre><h3 id="说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧"><a href="#说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧" class="headerlink" title="说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧"></a>说一下，这些都是红宝书第五章的内容，后面还有string字符串这块硬骨头，还需要仔细看看呐，今天先到这儿吧</h3>
           
         
       
@@ -1278,10 +1257,9 @@
   
 
 
+  
 
 
-  
-  
 
 
 
@@ -1323,12 +1301,7 @@
 
   
   
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
